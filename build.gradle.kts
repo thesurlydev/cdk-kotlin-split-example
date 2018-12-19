@@ -6,7 +6,6 @@ import org.jetbrains.kotlin.gradle.tasks.KotlinCompile
 
 plugins {
     kotlin("jvm") version "1.3.11"
-    id("maven-publish")
     id("com.github.johnrengelman.shadow") version "4.0.3"
 }
 
@@ -21,7 +20,6 @@ repositories {
 allprojects {
     apply {
         plugin("kotlin")
-        plugin("maven-publish")
     }
 
     dependencies {
