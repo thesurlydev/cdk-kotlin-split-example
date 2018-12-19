@@ -1,0 +1,13 @@
+pluginManagement {
+    repositories {
+        gradlePluginPortal()
+    }
+}
+
+rootProject.name = "cdk-kotlin-split-example"
+
+include(
+    "function",
+    "function-stack",
+    "provision"
+)

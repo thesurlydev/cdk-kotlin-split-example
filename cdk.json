@@ -1,0 +1,3 @@
+{
+  "app": "java -jar provision/build/libs/app.jar"
+}
